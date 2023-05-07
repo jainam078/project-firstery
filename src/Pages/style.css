@@ -1,0 +1,17 @@
+.login-container {
+  max-width: 350px;
+  width: 900px;
+}
+
+.continue-button {
+  background-color: #ff7043;
+  height: 40px;
+  color: white;
+  border: solid 1px #e0dbd9;
+  font-weight: 500;
+}
+
+.login-input {
+  border: 0px;
+  border-bottom: solid 1px #e0dbd9;
+}

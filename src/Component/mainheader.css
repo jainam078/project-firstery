@@ -1,0 +1,37 @@
+.linkcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  width: 500px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  /* outline: black; */
+  background-color: rgba(0, 0, 0, 0.1);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+}
+
+.cardstyle {
+  width: 25rem;
+}
+
+.cardstyle:hover {
+  background-color: rgba(161, 159, 159, 0.1);
+  transform: scale(1.01);
+}
+
+.cardtext {
+  display: none;
+}
+
+.cardstyle:hover .cardtext {
+  display: block;
+}
